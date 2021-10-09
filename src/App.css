@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.container{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttonLoad{
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid rgb(123, 123, 202);
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.buttonLoad:hover{
+  background-color: rgb(123, 123, 202);
+}

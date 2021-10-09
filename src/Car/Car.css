@@ -1,0 +1,89 @@
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 270px;
+    height: 150px;;
+    border-radius: 10px;
+}
+
+.right{
+    width: 25px;
+    height: 25px;
+    left: 50%;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.container{
+    text-align: center;
+}
+
+.left{
+    width: 25px;
+    height: 25px;
+    top: 150%;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.carName{
+    font-weight: bold;
+    width: 90px;
+    display: inline-block;
+}
+
+.type{
+    font-weight: bold;
+    width: 50px;
+    display: inline-block;
+}
+
+.description{
+    font-weight: bold;
+    width: 50px;
+    display: inline-block;
+}
+
+.text1{
+    width: 150px;
+    display: inline-block;
+}
+
+.text2{
+    width: 250px;
+    display: inline-block;
+}
+
+.tag{
+    border: 1px solid #27304d;
+    border-radius: 2px;
+    color: white;
+    background-color: #27304d;
+    width: 90px;
+    display:inline-block;
+    text-align: center;
+}
+
+.card{
+    font-style: verdana;
+    text-align: left;
+    color: white;
+    margin: 20px;
+    padding: 5px;
+    width: 300px;
+    background-color: rgb(123, 123, 202);
+    border: 5px solid #27304d;
+    border-radius: 10px;
+    height: 400px;
+    box-shadow: -3px 3px rgb(41, 39, 39);
+}
